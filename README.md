@@ -39,7 +39,7 @@ Each restaurant includes:
 ---
 
 ## 🗺️ Explore the Map  
-👉 [**View the Interactive Map of Rotterdam Restaurants**]([https://LorenaTian.github.io/Mijn-Rotterdamse-Eetwijzer/Mijn_Rotterdamse_Eetwijzer_Map.html])  
+👉 [**View the Interactive Map of Rotterdam Restaurants**]([https://lorenatian.github.io/Mijn-Rotterdamse-Eetwijzer/Mijn_Rotterdamse_Eetwijzer_Map.html])  
 
 Each dot = one meal I actually paid for.  
 - Bigger circle → higher spend   
