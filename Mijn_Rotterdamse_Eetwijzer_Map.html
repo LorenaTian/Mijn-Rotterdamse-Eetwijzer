@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4351947c35ae8e297bf899919de51bde {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4351947c35ae8e297bf899919de51bde" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4351947c35ae8e297bf899919de51bde = L.map(
+                "map_4351947c35ae8e297bf899919de51bde",
+                {
+                    center: [51.922419193103444, 4.470798348275862],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6446ff84716ee10fd23362ed392ad25d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6446ff84716ee10fd23362ed392ad25d.addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+            var circle_marker_e67b9ee926b453887667fe8ea5cbba79 = L.circleMarker(
+                [51.9206743, 4.5111016],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.31578947368421, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_4d67367dd39e27d3cec746a406f91df5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_510843384a0aebea210ea013bf5f467b = $(`<div id="html_510843384a0aebea210ea013bf5f467b" style="width: 100.0%; height: 100.0%;">     <b>Greek Kitchen</b><br>     Cuisine: Greeze<br>     Avg Spent: €15.75 p.p.<br>     My Rating: 3.74 / 5<br>     Google Rating: 4.60 / 5<br>     Postcode: 3062VL / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_4d67367dd39e27d3cec746a406f91df5.setContent(html_510843384a0aebea210ea013bf5f467b);
+            
+        
+
+        circle_marker_e67b9ee926b453887667fe8ea5cbba79.bindPopup(popup_4d67367dd39e27d3cec746a406f91df5)
+        ;
+
+        
+    
+    
+            var circle_marker_2f6e9fed0890ff0bf74bef4136d9e4dd = L.circleMarker(
+                [51.9197627, 4.4882659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.989473684210527, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_d9397e62f2020e9400a77c5285077143 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a1062d5803622bbef4702a82890c03db = $(`<div id="html_a1062d5803622bbef4702a82890c03db" style="width: 100.0%; height: 100.0%;">     <b>Very Italian Pizza</b><br>     Cuisine: Italian<br>     Avg Spent: €18.95 p.p.<br>     My Rating: 3.98 / 5<br>     Google Rating: 4.30 / 5<br>     Postcode: 3011GA / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_d9397e62f2020e9400a77c5285077143.setContent(html_a1062d5803622bbef4702a82890c03db);
+            
+        
+
+        circle_marker_2f6e9fed0890ff0bf74bef4136d9e4dd.bindPopup(popup_d9397e62f2020e9400a77c5285077143)
+        ;
+
+        
+    
+    
+            var circle_marker_5134a0d37a7857aa30fd0d5ec5dd2241 = L.circleMarker(
+                [51.9195041, 4.4841021],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.957894736842105, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_b0584137a320db5be826992f4a123b1f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_aab1e691d89d635d28562158bc165bf2 = $(`<div id="html_aab1e691d89d635d28562158bc165bf2" style="width: 100.0%; height: 100.0%;">     <b>Hinoki</b><br>     Cuisine: Japanese<br>     Avg Spent: €18.80 p.p.<br>     My Rating: 4.04 / 5<br>     Google Rating: 4.60 / 5<br>     Postcode: 3011GH / 5<br>     My Recommendation: Unagi Tantan Men     </div>`)[0];
+                popup_b0584137a320db5be826992f4a123b1f.setContent(html_aab1e691d89d635d28562158bc165bf2);
+            
+        
+
+        circle_marker_5134a0d37a7857aa30fd0d5ec5dd2241.bindPopup(popup_b0584137a320db5be826992f4a123b1f)
+        ;
+
+        
+    
+    
+            var circle_marker_09a7ec60c40770cf719bfbe8862eebfa = L.circleMarker(
+                [51.9192191, 4.4820305],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.947368421052632, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_4e7af24e469866d64534a2054e535b85 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0a241413de1af7e7c67ef52542f2ac04 = $(`<div id="html_0a241413de1af7e7c67ef52542f2ac04" style="width: 100.0%; height: 100.0%;">     <b>Old Town</b><br>     Cuisine: Malaysian<br>     Avg Spent: €23.50 p.p.<br>     My Rating: 4.02 / 5<br>     Google Rating: 4.40 / 5<br>     Postcode: 3011GK / 5<br>     My Recommendation: Chicken Bomboo Leaf     </div>`)[0];
+                popup_4e7af24e469866d64534a2054e535b85.setContent(html_0a241413de1af7e7c67ef52542f2ac04);
+            
+        
+
+        circle_marker_09a7ec60c40770cf719bfbe8862eebfa.bindPopup(popup_4e7af24e469866d64534a2054e535b85)
+        ;
+
+        
+    
+    
+            var circle_marker_b1a435371305fba7f7474591462ed95f = L.circleMarker(
+                [51.9165868, 4.4803159],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.768421052631577, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_915c0d7127457a56ff07c1f37380c7c3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a332f61f84ac463baa622b0c6596d99c = $(`<div id="html_a332f61f84ac463baa622b0c6596d99c" style="width: 100.0%; height: 100.0%;">     <b>Madame Saigon</b><br>     Cuisine: Vietnamese<br>     Avg Spent: €27.40 p.p.<br>     My Rating: 4.36 / 5<br>     Google Rating: 4.80 / 5<br>     Postcode: 3011BG / 5<br>     My Recommendation: Pho Bo Dac Biet     </div>`)[0];
+                popup_915c0d7127457a56ff07c1f37380c7c3.setContent(html_a332f61f84ac463baa622b0c6596d99c);
+            
+        
+
+        circle_marker_b1a435371305fba7f7474591462ed95f.bindPopup(popup_915c0d7127457a56ff07c1f37380c7c3)
+        ;
+
+        
+    
+    
+            var circle_marker_f61416d5858c2b2b103b804bddc56ade = L.circleMarker(
+                [51.9155297, 4.4663737],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.526315789473685, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_161e66ff73723ef6ad4db211ba460674 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f8838be9b1cd4f882638edbd4c7e9600 = $(`<div id="html_f8838be9b1cd4f882638edbd4c7e9600" style="width: 100.0%; height: 100.0%;">     <b>The Wings Paradise Rotterdam</b><br>     Cuisine: Latin American<br>     Avg Spent: €21.50 p.p.<br>     My Rating: 3.82 / 5<br>     Google Rating: 4.30 / 5<br>     Postcode: 3014GJ / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_161e66ff73723ef6ad4db211ba460674.setContent(html_f8838be9b1cd4f882638edbd4c7e9600);
+            
+        
+
+        circle_marker_f61416d5858c2b2b103b804bddc56ade.bindPopup(popup_161e66ff73723ef6ad4db211ba460674)
+        ;
+
+        
+    
+    
+            var circle_marker_fad5b6e164d582c916a3148fb6057f3e = L.circleMarker(
+                [51.9229577, 4.5006405],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.042105263157895, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_ea9cb158771986ad9d263b69361d12fa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_02b410c73e97e931c0cda3a64a1b5c4b = $(`<div id="html_02b410c73e97e931c0cda3a64a1b5c4b" style="width: 100.0%; height: 100.0%;">     <b>Mezze Rotterdam</b><br>     Cuisine: Turkish<br>     Avg Spent: €23.95 p.p.<br>     My Rating: 4.04 / 5<br>     Google Rating: 4.60 / 5<br>     Postcode: 3061VT / 5<br>     My Recommendation: Iki kisilik karisil izgara     </div>`)[0];
+                popup_ea9cb158771986ad9d263b69361d12fa.setContent(html_02b410c73e97e931c0cda3a64a1b5c4b);
+            
+        
+
+        circle_marker_fad5b6e164d582c916a3148fb6057f3e.bindPopup(popup_ea9cb158771986ad9d263b69361d12fa)
+        ;
+
+        
+    
+    
+            var circle_marker_66cd5152cc030f6e039951938c5e6ed9 = L.circleMarker(
+                [51.92273, 4.4996409],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.221052631578948, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_d72ed3a6f6bcc63e286874bd36b5d2f1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8c001fe0cf1e8ef5b9dab04c01bccad3 = $(`<div id="html_8c001fe0cf1e8ef5b9dab04c01bccad3" style="width: 100.0%; height: 100.0%;">     <b>Kyoto Remen</b><br>     Cuisine: Japanese<br>     Avg Spent: €15.30 p.p.<br>     My Rating: 3.80 / 5<br>     Google Rating: 4.60 / 5<br>     Postcode: 3063CC / 5<br>     My Recommendation: Beef Remen     </div>`)[0];
+                popup_d72ed3a6f6bcc63e286874bd36b5d2f1.setContent(html_8c001fe0cf1e8ef5b9dab04c01bccad3);
+            
+        
+
+        circle_marker_66cd5152cc030f6e039951938c5e6ed9.bindPopup(popup_d72ed3a6f6bcc63e286874bd36b5d2f1)
+        ;
+
+        
+    
+    
+            var circle_marker_cb0d7bc1bc6b390e90c55b9f5ca4ab47 = L.circleMarker(
+                [51.9117647, 4.4984684],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.52421052631579, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_7c894cd134e17c9dea3efc995d410da3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d40dd1e5f96447698b82db37cc8edcde = $(`<div id="html_d40dd1e5f96447698b82db37cc8edcde" style="width: 100.0%; height: 100.0%;">     <b>MYMandi Restaurant</b><br>     Cuisine: Yemeni<br>     Avg Spent: €30.99 p.p.<br>     My Rating: 3.94 / 5<br>     Google Rating: 4.60 / 5<br>     Postcode: 3071JW / 5<br>     My Recommendation: Lams Mandi     </div>`)[0];
+                popup_7c894cd134e17c9dea3efc995d410da3.setContent(html_d40dd1e5f96447698b82db37cc8edcde);
+            
+        
+
+        circle_marker_cb0d7bc1bc6b390e90c55b9f5ca4ab47.bindPopup(popup_7c894cd134e17c9dea3efc995d410da3)
+        ;
+
+        
+    
+    
+            var circle_marker_f049dc99f499c83456dfefd2b6492b0a = L.circleMarker(
+                [51.9122476, 4.5203146],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.210526315789474, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_8a94a796fc81175cac9c105c8f92aee0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dc2db461764d8697d2ee5caf869360dd = $(`<div id="html_dc2db461764d8697d2ee5caf869360dd" style="width: 100.0%; height: 100.0%;">     <b>Eatery De Watertoren</b><br>     Cuisine: Dutch<br>     Avg Spent: €29.50 p.p.<br>     My Rating: 4.10 / 5<br>     Google Rating: 4.60 / 5<br>     Postcode: 3063HA / 5<br>     My Recommendation: Tom Yam Esque     </div>`)[0];
+                popup_8a94a796fc81175cac9c105c8f92aee0.setContent(html_dc2db461764d8697d2ee5caf869360dd);
+            
+        
+
+        circle_marker_f049dc99f499c83456dfefd2b6492b0a.bindPopup(popup_8a94a796fc81175cac9c105c8f92aee0)
+        ;
+
+        
+    
+    
+            var circle_marker_713493e5248177af902e2f3f557ff3c9 = L.circleMarker(
+                [51.9129054, 4.5530004],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.473684210526315, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_7db30046a147d01bfebb933671b4717d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f96211b2cd1cf73fe85895ff698112a5 = $(`<div id="html_f96211b2cd1cf73fe85895ff698112a5" style="width: 100.0%; height: 100.0%;">     <b>II Forno Italiano</b><br>     Cuisine: Italian<br>     Avg Spent: €16.50 p.p.<br>     My Rating: 3.96 / 5<br>     Google Rating: 4.70 / 5<br>     Postcode: 3064AA / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_7db30046a147d01bfebb933671b4717d.setContent(html_f96211b2cd1cf73fe85895ff698112a5);
+            
+        
+
+        circle_marker_713493e5248177af902e2f3f557ff3c9.bindPopup(popup_7db30046a147d01bfebb933671b4717d)
+        ;
+
+        
+    
+    
+            var circle_marker_52c2e29feee4b2b596e7f7428ed390b7 = L.circleMarker(
+                [51.9157511, 4.4771745],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_73aca4ef7df799e515c0213a8b3abbe4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3ba98b237fdc0cd4fb91b387ffd67018 = $(`<div id="html_3ba98b237fdc0cd4fb91b387ffd67018" style="width: 100.0%; height: 100.0%;">     <b>Hung Kee</b><br>     Cuisine: Chinese<br>     Avg Spent: €19.00 p.p.<br>     My Rating: 4.04 / 5<br>     Google Rating: 4.20 / 5<br>     Postcode: 3012BM / 5<br>     My Recommendation: Gebakken Inktvis Peper Zout     </div>`)[0];
+                popup_73aca4ef7df799e515c0213a8b3abbe4.setContent(html_3ba98b237fdc0cd4fb91b387ffd67018);
+            
+        
+
+        circle_marker_52c2e29feee4b2b596e7f7428ed390b7.bindPopup(popup_73aca4ef7df799e515c0213a8b3abbe4)
+        ;
+
+        
+    
+    
+            var circle_marker_3ccf850d3d06484efd40d8a94d51b8e5 = L.circleMarker(
+                [51.9236495, 4.4692088],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.68421052631579, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_4d9c1650fdd755c3d723f56ebe492e9d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_15c69663f8f91b8e04cfd3a1aa8694e7 = $(`<div id="html_15c69663f8f91b8e04cfd3a1aa8694e7" style="width: 100.0%; height: 100.0%;">     <b>Trattoria A Proposito</b><br>     Cuisine: Italian<br>     Avg Spent: €22.25 p.p.<br>     My Rating: 4.16 / 5<br>     Google Rating: 4.40 / 5<br>     Postcode: 3013AL / 5<br>     My Recommendation: Pistache     </div>`)[0];
+                popup_4d9c1650fdd755c3d723f56ebe492e9d.setContent(html_15c69663f8f91b8e04cfd3a1aa8694e7);
+            
+        
+
+        circle_marker_3ccf850d3d06484efd40d8a94d51b8e5.bindPopup(popup_4d9c1650fdd755c3d723f56ebe492e9d)
+        ;
+
+        
+    
+    
+            var circle_marker_64707e38333f51d9ee340e84e72d8f54 = L.circleMarker(
+                [51.9159373, 4.4789027],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.052631578947368, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_6d51661778beaf32b7799caf36b18052 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_69605f9cc1e69a587bdb053551a30ad9 = $(`<div id="html_69605f9cc1e69a587bdb053551a30ad9" style="width: 100.0%; height: 100.0%;">     <b>Restaurant Bazar</b><br>     Cuisine: Middle Easten<br>     Avg Spent: €24.00 p.p.<br>     My Rating: 4.34 / 5<br>     Google Rating: 4.20 / 5<br>     Postcode: 3012BP / 5<br>     My Recommendation: Adana Kebab     </div>`)[0];
+                popup_6d51661778beaf32b7799caf36b18052.setContent(html_69605f9cc1e69a587bdb053551a30ad9);
+            
+        
+
+        circle_marker_64707e38333f51d9ee340e84e72d8f54.bindPopup(popup_6d51661778beaf32b7799caf36b18052)
+        ;
+
+        
+    
+    
+            var circle_marker_bc35c5e9cfc25ba8274cebccfcb49b14 = L.circleMarker(
+                [51.9221172, 4.4903201],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.578947368421051, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_257df84b36838694ef3484e891981e1d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e06def2c3af5a8a9b1006015f1f73eb8 = $(`<div id="html_e06def2c3af5a8a9b1006015f1f73eb8" style="width: 100.0%; height: 100.0%;">     <b>O'Pazzo Blaak</b><br>     Cuisine: Italian<br>     Avg Spent: €21.75 p.p.<br>     My Rating: 4.20 / 5<br>     Google Rating: 4.40 / 5<br>     Postcode: 3011NV / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_257df84b36838694ef3484e891981e1d.setContent(html_e06def2c3af5a8a9b1006015f1f73eb8);
+            
+        
+
+        circle_marker_bc35c5e9cfc25ba8274cebccfcb49b14.bindPopup(popup_257df84b36838694ef3484e891981e1d)
+        ;
+
+        
+    
+    
+            var circle_marker_01629e5a994deb0b90f59150d6dfb449 = L.circleMarker(
+                [51.921141, 4.4700534],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.421052631578947, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_deeac7046737b3df08041245d8e47b2d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_54eae9b7d2ae82d8f6d89359da2c9fc2 = $(`<div id="html_54eae9b7d2ae82d8f6d89359da2c9fc2" style="width: 100.0%; height: 100.0%;">     <b>Urumqi Restaurant</b><br>     Cuisine: Chinese<br>     Avg Spent: €21.00 p.p.<br>     My Rating: 4.24 / 5<br>     Google Rating: 4.30 / 5<br>     Postcode: 3014AH / 5<br>     My Recommendation: Tuhu Qormisi     </div>`)[0];
+                popup_deeac7046737b3df08041245d8e47b2d.setContent(html_54eae9b7d2ae82d8f6d89359da2c9fc2);
+            
+        
+
+        circle_marker_01629e5a994deb0b90f59150d6dfb449.bindPopup(popup_deeac7046737b3df08041245d8e47b2d)
+        ;
+
+        
+    
+    
+            var circle_marker_843f5f813004c31a4e4f0c40b1889608 = L.circleMarker(
+                [51.965913, 4.0365543],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.210526315789473, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_62dc23c32b147aa64e6f9b627cd9c4a2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e501a81c35cb8476039346145c85922c = $(`<div id="html_e501a81c35cb8476039346145c85922c" style="width: 100.0%; height: 100.0%;">     <b>O-Anatolian Cafe</b><br>     Cuisine: Turkish<br>     Avg Spent: €24.75 p.p.<br>     My Rating: 3.86 / 5<br>     Google Rating: 3.90 / 5<br>     Postcode: 3072AT / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_62dc23c32b147aa64e6f9b627cd9c4a2.setContent(html_e501a81c35cb8476039346145c85922c);
+            
+        
+
+        circle_marker_843f5f813004c31a4e4f0c40b1889608.bindPopup(popup_62dc23c32b147aa64e6f9b627cd9c4a2)
+        ;
+
+        
+    
+    
+            var circle_marker_38e9596a77b7d7db5115ec2a0aceb0eb = L.circleMarker(
+                [51.8971685, 4.4957708],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.68421052631579, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_188930e169f096f2b47356346f96c7ab = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e30e0be03a684dfe0d34d70c38fc3587 = $(`<div id="html_e30e0be03a684dfe0d34d70c38fc3587" style="width: 100.0%; height: 100.0%;">     <b>Restaurant Baskent</b><br>     Cuisine: Turkish<br>     Avg Spent: €17.50 p.p.<br>     My Rating: 4.44 / 5<br>     Google Rating: 4.80 / 5<br>     Postcode: 3073JP / 5<br>     My Recommendation: Kelle Paca     </div>`)[0];
+                popup_188930e169f096f2b47356346f96c7ab.setContent(html_e30e0be03a684dfe0d34d70c38fc3587);
+            
+        
+
+        circle_marker_38e9596a77b7d7db5115ec2a0aceb0eb.bindPopup(popup_188930e169f096f2b47356346f96c7ab)
+        ;
+
+        
+    
+    
+            var circle_marker_fdf4d63d2f9ad9af05fb35f8b31c58a4 = L.circleMarker(
+                [51.9228343, 4.4979717],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_8e792910cbca0613ca8759c72467e2ea = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cf4304464cf30eeebe35e4278df04d20 = $(`<div id="html_cf4304464cf30eeebe35e4278df04d20" style="width: 100.0%; height: 100.0%;">     <b>Tasca Plein Oost</b><br>     Cuisine: Spaanse and Portugese<br>     Avg Spent: €47.50 p.p.<br>     My Rating: 4.36 / 5<br>     Google Rating: 4.80 / 5<br>     Postcode: 3063CE / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_8e792910cbca0613ca8759c72467e2ea.setContent(html_cf4304464cf30eeebe35e4278df04d20);
+            
+        
+
+        circle_marker_fdf4d63d2f9ad9af05fb35f8b31c58a4.bindPopup(popup_8e792910cbca0613ca8759c72467e2ea)
+        ;
+
+        
+    
+    
+            var circle_marker_6e8f68610e8a4691c153e67a359e8efb = L.circleMarker(
+                [51.9094213, 4.4453188],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.526315789473684, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_649aa96b584a82c5a52ce524922004d6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_24755b76f784e52c0759bfedd4a20c7b = $(`<div id="html_24755b76f784e52c0759bfedd4a20c7b" style="width: 100.0%; height: 100.0%;">     <b>Marioshawarma Restaurant</b><br>     Cuisine: Syrian<br>     Avg Spent: €12.00 p.p.<br>     My Rating: 4.10 / 5<br>     Google Rating: 4.90 / 5<br>     Postcode: 3025GL / 5<br>     My Recommendation: Extra shoarma     </div>`)[0];
+                popup_649aa96b584a82c5a52ce524922004d6.setContent(html_24755b76f784e52c0759bfedd4a20c7b);
+            
+        
+
+        circle_marker_6e8f68610e8a4691c153e67a359e8efb.bindPopup(popup_649aa96b584a82c5a52ce524922004d6)
+        ;
+
+        
+    
+    
+            var circle_marker_42a79b2a70311d59da188befee4f5ab8 = L.circleMarker(
+                [51.9242759, 4.493036],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.0, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_19a45bd573692f61016812b727f62643 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a68bf96bfe8af29f6653b6e9af6d845a = $(`<div id="html_a68bf96bfe8af29f6653b6e9af6d845a" style="width: 100.0%; height: 100.0%;">     <b>Man Nam</b><br>     Cuisine: Korean<br>     Avg Spent: €28.50 p.p.<br>     My Rating: 3.74 / 5<br>     Google Rating: 4.10 / 5<br>     Postcode: 3031ED / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_19a45bd573692f61016812b727f62643.setContent(html_a68bf96bfe8af29f6653b6e9af6d845a);
+            
+        
+
+        circle_marker_42a79b2a70311d59da188befee4f5ab8.bindPopup(popup_19a45bd573692f61016812b727f62643)
+        ;
+
+        
+    
+    
+            var circle_marker_c824ce2066756e6cb45b4d72d3bfb8af = L.circleMarker(
+                [51.920907, 4.498517],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.429473684210526, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_69c41ea51083bd3f8278d47574fc2300 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f2d8d31e8b740d66d1124f18b9829244 = $(`<div id="html_f2d8d31e8b740d66d1124f18b9829244" style="width: 100.0%; height: 100.0%;">     <b>Yemeni Restaurant</b><br>     Cuisine: Yemeni<br>     Avg Spent: €25.79 p.p.<br>     My Rating: 4.10 / 5<br>     Google Rating: 4.50 / 5<br>     Postcode: 3011TL / 5<br>     My Recommendation: Fahsa Lam     </div>`)[0];
+                popup_69c41ea51083bd3f8278d47574fc2300.setContent(html_f2d8d31e8b740d66d1124f18b9829244);
+            
+        
+
+        circle_marker_c824ce2066756e6cb45b4d72d3bfb8af.bindPopup(popup_69c41ea51083bd3f8278d47574fc2300)
+        ;
+
+        
+    
+    
+            var circle_marker_4112d5fecc9466d2fca3342e976f1efd = L.circleMarker(
+                [51.917513, 4.4779983],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.31578947368421, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_8db02e1338b728ff86a9c49afce89686 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_db2500ba126a8f9e9ea21bd22282f6ff = $(`<div id="html_db2500ba126a8f9e9ea21bd22282f6ff" style="width: 100.0%; height: 100.0%;">     <b>Yuan's Hot Pot Rotterdam</b><br>     Cuisine: Chinese<br>     Avg Spent: €39.50 p.p.<br>     My Rating: 4.40 / 5<br>     Google Rating: 4.80 / 5<br>     Postcode: 3012KD / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_8db02e1338b728ff86a9c49afce89686.setContent(html_db2500ba126a8f9e9ea21bd22282f6ff);
+            
+        
+
+        circle_marker_4112d5fecc9466d2fca3342e976f1efd.bindPopup(popup_8db02e1338b728ff86a9c49afce89686)
+        ;
+
+        
+    
+    
+            var circle_marker_3295ab12b7e41eb094b02d4ac47aeb9f = L.circleMarker(
+                [51.9214449, 4.485682],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.894736842105264, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_5064c93ca4f4d3d4a634fec20a53901c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6f4b4196e08bb9a300c086da21d496d6 = $(`<div id="html_6f4b4196e08bb9a300c086da21d496d6" style="width: 100.0%; height: 100.0%;">     <b>Little V</b><br>     Cuisine: Vietnamese<br>     Avg Spent: €18.50 p.p.<br>     My Rating: 4.26 / 5<br>     Google Rating: 4.30 / 5<br>     Postcode: 3011GC / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_5064c93ca4f4d3d4a634fec20a53901c.setContent(html_6f4b4196e08bb9a300c086da21d496d6);
+            
+        
+
+        circle_marker_3295ab12b7e41eb094b02d4ac47aeb9f.bindPopup(popup_5064c93ca4f4d3d4a634fec20a53901c)
+        ;
+
+        
+    
+    
+            var circle_marker_4d58e4e55c7d98a3512fab0d611d6def = L.circleMarker(
+                [51.9177305, 4.4577193],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.105263157894736, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_dd7e439480e2af4b8039ff25a883bf25 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_db2bc9f19047d5e7b7cebdf8e1ac5779 = $(`<div id="html_db2bc9f19047d5e7b7cebdf8e1ac5779" style="width: 100.0%; height: 100.0%;">     <b>Portugalia Tasca Rotterdam</b><br>     Cuisine: Portugalia<br>     Avg Spent: €33.75 p.p.<br>     My Rating: 4.14 / 5<br>     Google Rating: 4.50 / 5<br>     Postcode: 3021BM / 5<br>     My Recommendation: Arroz De Marisco     </div>`)[0];
+                popup_dd7e439480e2af4b8039ff25a883bf25.setContent(html_db2bc9f19047d5e7b7cebdf8e1ac5779);
+            
+        
+
+        circle_marker_4d58e4e55c7d98a3512fab0d611d6def.bindPopup(popup_dd7e439480e2af4b8039ff25a883bf25)
+        ;
+
+        
+    
+    
+            var circle_marker_d3c7821dd1fd7cc8390818acdba2ae3b = L.circleMarker(
+                [51.9183133, 4.472761],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.157894736842106, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_47e205212c915e53b03af90b2a3acb56 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e47037aac86d3724503faab0e5d2a7be = $(`<div id="html_e47037aac86d3724503faab0e5d2a7be" style="width: 100.0%; height: 100.0%;">     <b>Yellow River Lanzhou Handpulled Noodles Rotterdam</b><br>     Cuisine: Chinese<br>     Avg Spent: €15.00 p.p.<br>     My Rating: 4.08 / 5<br>     Google Rating: 4.10 / 5<br>     Postcode: 3012JV / 5<br>     My Recommendation: Lanzhou Traditional Beef Noodles     </div>`)[0];
+                popup_47e205212c915e53b03af90b2a3acb56.setContent(html_e47037aac86d3724503faab0e5d2a7be);
+            
+        
+
+        circle_marker_d3c7821dd1fd7cc8390818acdba2ae3b.bindPopup(popup_47e205212c915e53b03af90b2a3acb56)
+        ;
+
+        
+    
+    
+            var circle_marker_6bc9c6b8a364a197cf1ab1e8843b4618 = L.circleMarker(
+                [51.9623874, 4.4825001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.210526315789474, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_d3b656e8c7f86f91adf2d7838264f0fc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b602f2ead84e145943d4d21f757d1a3c = $(`<div id="html_b602f2ead84e145943d4d21f757d1a3c" style="width: 100.0%; height: 100.0%;">     <b>Brasserie Thuis</b><br>     Cuisine: Dutch<br>     Avg Spent: €29.50 p.p.<br>     My Rating: 3.98 / 5<br>     Google Rating: 4.60 / 5<br>     Postcode: 3053KT / 5<br>     My Recommendation: nan     </div>`)[0];
+                popup_d3b656e8c7f86f91adf2d7838264f0fc.setContent(html_b602f2ead84e145943d4d21f757d1a3c);
+            
+        
+
+        circle_marker_6bc9c6b8a364a197cf1ab1e8843b4618.bindPopup(popup_d3b656e8c7f86f91adf2d7838264f0fc)
+        ;
+
+        
+    
+    
+            var circle_marker_ef33824f2541126888b9a16019114165 = L.circleMarker(
+                [51.9596577, 4.4712758],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.631578947368421, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_55ec2cfa6241d695604623cdfba8f088 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cf0a2d3e8174c8cff1dd3a4b35e6a3e9 = $(`<div id="html_cf0a2d3e8174c8cff1dd3a4b35e6a3e9" style="width: 100.0%; height: 100.0%;">     <b>Tokootje</b><br>     Cuisine: Surinaamse<br>     Avg Spent: €17.25 p.p.<br>     My Rating: 4.04 / 5<br>     Google Rating: 4.80 / 5<br>     Postcode: 3053ER / 5<br>     My Recommendation: Nasi Rames     </div>`)[0];
+                popup_55ec2cfa6241d695604623cdfba8f088.setContent(html_cf0a2d3e8174c8cff1dd3a4b35e6a3e9);
+            
+        
+
+        circle_marker_ef33824f2541126888b9a16019114165.bindPopup(popup_55ec2cfa6241d695604623cdfba8f088)
+        ;
+
+        
+    
+    
+            var circle_marker_66bee654949b1006c2e61e4efca3e5cb = L.circleMarker(
+                [51.9201116, 4.468133],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.263157894736842, "stroke": true, "weight": 1}
+            ).addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+    
+        var popup_dd4beb9b33882aa90a698260a4151514 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0f9341fdb53c877440a258a4154562e9 = $(`<div id="html_0f9341fdb53c877440a258a4154562e9" style="width: 100.0%; height: 100.0%;">     <b>Texican</b><br>     Cuisine: Mexican<br>     Avg Spent: €20.25 p.p.<br>     My Rating: 4.28 / 5<br>     Google Rating: 4.10 / 5<br>     Postcode: 3014AW / 5<br>     My Recommendation: Hot 'n Spicy BBQ Ribs     </div>`)[0];
+                popup_dd4beb9b33882aa90a698260a4151514.setContent(html_0f9341fdb53c877440a258a4154562e9);
+            
+        
+
+        circle_marker_66bee654949b1006c2e61e4efca3e5cb.bindPopup(popup_dd4beb9b33882aa90a698260a4151514)
+        ;
+
+        
+    
+    
+            tile_layer_6446ff84716ee10fd23362ed392ad25d.addTo(map_4351947c35ae8e297bf899919de51bde);
+        
+</script>
+</html>
