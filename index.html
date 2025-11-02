@@ -1,10 +1,125 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=Mijn_Rotterdamse_Eetwijzer_Map.html">
+    <meta charset="UTF-8">
     <title>Mijn Rotterdamse Eetwijzer</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: #fafafa;
+        color: #24292f;
+        text-align: center;
+        padding: 60px 20px;
+        line-height: 1.5;
+      }
+
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 16px;
+        padding: 32px 24px 40px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.06);
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0.3em;
+      }
+
+      .tagline {
+        font-size: 1.05rem;
+        color: #57606a;
+        margin-bottom: 1.5em;
+      }
+
+      .note {
+        font-size: 0.9rem;
+        color: #6e7781;
+        margin-bottom: 2em;
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        margin-bottom: 2em;
+      }
+
+      a.button {
+        display: block;
+        text-decoration: none;
+        font-weight: 600;
+        background-color: #2f81f7;
+        color: #fff;
+        padding: 14px 18px;
+        border-radius: 10px;
+        font-size: 1rem;
+        box-shadow: 0 8px 24px rgba(47,129,247,0.3);
+        transition: all 0.15s ease;
+      }
+
+      a.button:hover {
+        background-color: #1b5fd1;
+        box-shadow: 0 8px 24px rgba(27,95,209,0.4);
+      }
+
+      .footer {
+        font-size: 0.8rem;
+        color: #8b949e;
+        margin-top: 1.5em;
+      }
+
+      @media (min-width: 600px) {
+        .buttons {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        a.button {
+          min-width: 200px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <p>Redirecting to my interactive Rotterdam food map...</p>
+    <div class="container">
+      <h1>Mijn Rotterdamse Eetwijzer 🍽️</h1>
+      <div class="tagline">
+        A data-driven guide to where (and what) I eat in Rotterdam.
+      </div>
+
+      <div class="note">
+        I logged 29 real restaurant visits — including how much I paid,
+        how much I liked it, and how it scored publicly — then turned it
+        into a mini analytics project.
+      </div>
+
+
+      <div class="buttons">
+        
+        <a class="button" href="https://github.com/LorenaTian/Mijn-Rotterdamse-Eetwijzer#readme" target="_blank">
+          📖 Project README / Summary
+        </a>
+        
+        <a class="button" href="Mijn_Rotterdamse_Eetwijzer_Map.html" target="_blank">
+          🗺️ Interactive Map
+        </a>
+
+        <a class="button" href="https://github.com/LorenaTian/Mijn-Rotterdamse-Eetwijzer/blob/main/Mijn-Rotterdamse-Eetwijzer.ipynb" target="_blank">
+          📘 Full Analysis Notebook
+        </a>
+      </div>
+
+      <div class="footer">
+        Built with Python (pandas, seaborn, folium) and published via GitHub Pages.
+        <br>
+        Good food deserves good data. 😋
+      </div>
+    </div>
   </body>
 </html>
